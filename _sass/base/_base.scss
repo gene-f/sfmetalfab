@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto:700');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.6;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+main, header {
+	margin: auto;
+	max-width: 500px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "about about"
+    					 "services gallery"
+    					 "contact form";
+
+}

@@ -1,0 +1,23 @@
+#section-form {
+	grid-area: form;
+	padding: 3px;
+
+	input {
+		width: 100%;
+		background: white;
+		color: blue;
+		border: 1px solid blue;
+		height: 45px;
+		margin-bottom: 3px;
+	}
+
+	input::placeholder {
+		color: blue;
+		text-align: center;
+	}
+
+	#textarea {
+		padding: 0;
+		height: 100px;
+	}
+}

@@ -1,0 +1,27 @@
+header {
+    h1 {
+        color: red;
+        background: rgb(255,205,205);
+        font-family: 'Roboto', sans-serif;
+        padding-left: 1%;
+    }
+
+    nav {
+        width: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin-left: 20px;
+
+    }
+
+    a {
+        color: blue;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    a + a {
+        border-left: none;
+    }
+}
